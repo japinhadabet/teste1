@@ -96,11 +96,11 @@ display: none;
 }
 
 ::-webkit-scrollbar-track-piece {
-background-color: #3b3b3b;
+background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb:vertical {
-background-color: #00ff37;
+background-color: #000000;
 }
 
 /* ------------------------------------------------------ */
@@ -124,19 +124,14 @@ background-color: #00ff37;
 	font-weight: 700;
 }
 .txt-line00 {
-	padding: 100px 0px;
+	padding: 50px 0px;
 }
 .txt-line1 {
-	color: #ff0000;
-	;
+	color: #F3E642;
 	font-weight: bold;
-	;
-    font-size: 24px;
 }
 .txt-line2 {
-	color: #ffffff;
-	;
-	font-weight: bold;
+	color: #F3E642;
 }
 .list__games {
 	padding: 0px 0px;
@@ -147,7 +142,7 @@ background-color: #00ff37;
 	float: left;
 }
 .game__img00 {
-	background: #000000;
+	background: #000;
 	position: relative;
 }
 .game__img {
@@ -161,33 +156,52 @@ background-color: #00ff37;
 }
 
 .game__percent {
-background: #fff;
-border-radius: 12px;
-position: relative;
-height: 12px;
-overflow: hidden;
-margin: 10px 5px;
-}
-.game__percent--prog {
-height: 12px;
-border-radius: 11px;
-border-radius: 11px;
-position: absolute;
-top: 0px;
-left: 0px;
-z-index: 2;
-background-color: (45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
-background-size: 1rem 1rem;
-transition: width .6s ease;
--webkit-animation: progress-bar-stripes s linear infinite;
-animation: progress-bar-stripes 2s linear infinite;
-}
-.game__name {
-	color: #fff;
-	font-size: 12px;
-	text-align: center;
-	padding: 0px 0px 10px 0px;
-}
+	background: #fff;
+	border-radius: 12px;
+	position: relative;
+	height: 12px;
+	overflow: hidden;
+	margin: 10px 5px;
+	}
+	.game__percent--prog {
+	height: 12px;
+	border-radius: 11px;
+	border-radius: 11px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	background-color: (45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-size: 1rem 1rem;
+	transition: width .6s ease;
+	-webkit-animation: progress-bar-stripes s linear infinite;
+	animation: progress-bar-stripes 2s linear infinite;
+	}
+	.game__name {
+		color: #fff;
+		font-size: 12px;
+		text-align: center;
+		padding: 0px 0px 10px 0px;
+	}
+	
+	.game__link {
+			
+		background-image:linear-gradient(180deg, #ffea00 0%, #ffea00 100%);
+		color: #000000;
+		text-align: center;
+		font-weight: 600;
+		font-style: normal;
+		font-display: bold;
+		padding: 5px 30px;
+		border-radius: 50px;
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 60px;
+		left: 0px;
+		text-align: center;
+    }
+	
 /* Estilos para o modal */
 
 .iframeContainer {
@@ -207,6 +221,7 @@ border: none;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0;
+  border-bottom-style: groove;
 }
 
 /* FIM DA CSS ESPECÍFICA */
