@@ -127,11 +127,11 @@ background-color: #000000;
 	padding: 50px 0px;
 }
 .txt-line1 {
-	color: #F3E642;
+	color: #ff0000;
 	font-weight: bold;
 }
 .txt-line2 {
-	color: #F3E642;
+	color: #ffffff;
 }
 .list__games {
 	padding: 0px 0px;
@@ -185,21 +185,21 @@ background-color: #000000;
 	}
 	
 	.game__link {
-			
-		background-image:linear-gradient(180deg, #ffea00 0%, #ffea00 100%);
+		background-position: 1px;
+		background-image:linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
 		color: #000000;
 		text-align: center;
-		font-weight: 600;
+		font-weight: 1000;
 		font-style: normal;
 		font-display: bold;
-		padding: 5px 30px;
-		border-radius: 50px;
-		display: none;
-		position: absolute;
+		padding: 1px 5px;
+		border-radius: 40px;
+		position: center;
 		width: 100%;
-		top: 60px;
-		left: 0px;
+		top: 10px;
+		left: -10px;
 		text-align: center;
+		
     }
 	
 /* Estilos para o modal */
