@@ -134,7 +134,7 @@ background-color: #000000;
 	color: #ffffff;
 }
 .list__games {
-	padding: 0px 0px;
+	padding: 10px 100px;
 }
 .game__item {
 	width: 20%;
@@ -200,7 +200,19 @@ background-color: #000000;
 		left: -10px;
 		text-align: center;
 		
-    }
+	}
+	.game__number {
+		color: #fff;
+		font-size: 12px;
+		text-align: center;
+		padding: 0px 0px 10px 0px;
+	}
+.game__plataforma {
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
 	
 /* Estilos para o modal */
 
